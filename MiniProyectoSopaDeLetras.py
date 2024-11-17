@@ -12,8 +12,9 @@ def main():
     Returns:
         None
     """
-    input_path = "content_Letter_soup.txt"  # Replace with the actual file path
-    output_path = "result.json"            # Path to save the report
+    carpeta_raiz = os.path.dirname(os.path.abspath(__file__))
+    input_path = os.path.join(carpeta_raiz,"content_Letter_soup.txt")  # Replace with the actual file path
+    output_path = os.path.join(carpeta_raiz,"result.json" )           # Path to save the report
 
     # Read the content of the file
     content = get_file_content(input_path)
