@@ -9,5 +9,5 @@ This project processes a letter soup (word search puzzle) to identify words prov
 ## How to Run
 
 1. Clone the repository:
-   git clone [your-repo-url]
-   cd letter_soup_project
+   git clone https://github.com/juanjpachon/MiniProyectoFinal.git
+   cd MiniProyectoFinal
